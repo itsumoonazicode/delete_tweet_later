@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>シャボン玉テスト</title>
+</head>
+<body>
+    
+    <h1>シャボン玉ツイート</h1>
+    <form action="" method="post" id="form">
+        <textarea name="post_tweet" id="" cols="30" rows="10" maxlength="140" v-model="postcomment"></textarea>
+        <p>残り{{textAreaLength}}文字</p>
+        <input type="submit" value="TWEET NOW">
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <script src="views/js/script.js"></script>
+
+</body>
+</html>
